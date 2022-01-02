@@ -36,6 +36,10 @@ h3 {
 	margin-bottom: 8px;
 }
 
+h4 {
+	font-style: italic;
+}
+
 hr {
 	border: 1px solid black;
 	width: 100%;
@@ -116,6 +120,7 @@ section {
 
 ul {
 	margin: 15px 0px 50px 50px;
+	list-style-type: '- ';
 }
 
 li {
