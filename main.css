@@ -15,7 +15,6 @@ body {
 	padding: 50px;
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(to right, rgb(226, 226, 226) 33%, white 33%);
 }
 
 h1,
@@ -24,32 +23,52 @@ h3 {
 	text-transform: uppercase;
 }
 
+h1 {
+	font-size: 1.6rem;
+}
+
 h2 {
 	font-weight: 500;
 	font-size: 1.3em;
+	text-align: center;
 }
 
 h3 {
 	font-size: 0.9em;
 	font-weight: 600;
-	margin-bottom: 8px;
+	margin: 5px 0px;
 }
 
 h4 {
 	font-style: italic;
+	font-weight: 500;
+}
+
+header {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 1.3em;
 }
 
 hr {
-	border: 1px solid black;
+	border: 1px solid #555;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 p {
-	line-height: 1.5em;
+	font-size: 18px;
 }
 
 a {
+	font-size: 18px;
 	color: black;
 }
 
@@ -57,77 +76,60 @@ a:hover {
 	color: blue;
 }
 
-header {
-	border: 1px solid black;
-	margin: auto;
-	width: 50%;
-	padding: 40px 80px;
-	text-align: center;
-	background-color: white;
-	margin-bottom: 50px;
-}
-
-header h1 {
-	letter-spacing: 4px;
-}
-
-header h2 {
-	margin-top: 20px;
-	font-weight: 400;
-	font-size: 1.2em;
-}
-
 div {
 	width: 90%;
 	margin: auto;
-	margin-bottom: 50px;
-}
-
-article {
-	display: flex;
-	width: 100%;
-	height: 100%;
-}
-
-main {
-	width: 70%;
-	height: 100%;
-}
-
-main h3 {
-	text-transform: capitalize;
-	font-size: 1em;
-}
-
-section {
-	margin-bottom: 20px;
-}
-
-.side {
-	height: 100%;
-	width: 30%;
-}
-
-.links p {
-	margin-bottom: 15px;
-}
-
-.links i {
-	font-size: 1.2em;
-	vertical-align: -3px;
+	padding-bottom: 15px;
 }
 
 ul {
-	margin: 15px 0px 50px 50px;
-	list-style-type: '- ';
+	margin: 10px 0px;
+	padding-left: 40px;
 }
 
-li {
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
-	font-weight: 300;
-	margin-bottom: 10px;
+.details {
+	text-align: center;
+}
+
+.details a {
+	padding-left: 5px;
 }
 
 .courses section {
-	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.courses section a {
+	width: 100%;
+}
+
+.course {
+	width: 50%;
+}
+
+.course-date {
+	width: 50%;
+	text-align: right;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills h2 {
+	width: 100%;
+}
+
+.skills h3 {
+	font-size: 16px;
+	width: 13%;
+}
+
+.skills p {
+	width: 87%;
+	font-size: 16px;
+	margin: 5px 0px;
 }
