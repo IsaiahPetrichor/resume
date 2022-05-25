@@ -36,7 +36,7 @@ h2 {
 h3 {
 	font-size: 0.9em;
 	font-weight: 600;
-	margin: 5px 0px;
+	margin: 20px 0px 5px 0px;
 }
 
 h4 {
@@ -112,6 +112,7 @@ ul {
 .course-date {
 	width: 50%;
 	text-align: right;
+	margin-top: 30px;
 }
 
 .skills {
